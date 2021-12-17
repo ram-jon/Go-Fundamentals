@@ -44,7 +44,7 @@ func passByRef(num *int) {
 	fmt.Println(*num)
 }
 
-// retuning multiple values
+// returning multiple values
 
 func divide(a float64, b float64) (float64, error) {
 	if b == 0 || b == 0.0 { //handling divide by zero
